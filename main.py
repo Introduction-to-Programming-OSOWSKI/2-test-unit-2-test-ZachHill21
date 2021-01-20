@@ -1,10 +1,10 @@
 def waterState(f):
     if f < 32:
-        return "Solid"
+        return "solid"
     elif 32 < f < 212:
-        return "Liquid"
+        return "liquid"
     else:
-        return "Gas"
+        return "gas"
 print (waterState(45))
 
 def isDozen(d):
